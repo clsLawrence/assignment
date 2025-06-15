@@ -22,6 +22,16 @@ body {
     display: block;
 }
 
+/* For link management */
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #ff6b6b;
+}
+
 /* Header */
 .header {
     position: fixed;
@@ -306,6 +316,15 @@ body {
     outline: none;
 }
 
+.name-input {
+    flex: 1;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+}
+
 .subscribe-btn {
     background: linear-gradient(45deg, #ff6b6b, #ffa726);
     color: white;
@@ -318,6 +337,21 @@ body {
 }
 
 .subscribe-btn:hover {
+    transform: scale(1.05);
+}
+
+.feedback-btn {
+    background: linear-gradient(45deg, #0d0000, #0b0b0b);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.feedback-btn:hover {
     transform: scale(1.05);
 }
 
