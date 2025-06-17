@@ -447,10 +447,12 @@ a:hover {
 /* Product Image Backgrounds */
 .heels-product-1 {
     background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    background-image: url('https://clslawrence.github.io/assignment/alex-quezada-qAyOt0aGsCo-unsplash.jpg');
 }
 
 .heels-product-2 {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    background-image: url('https://clslawrence.github.io/assignment/the-nix-company-m6mAYVEHlNs-unsplash.jpg');
 }
 
 .heels-product-3 {
